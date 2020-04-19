@@ -1,5 +1,5 @@
-# Front-end-web-development
-前端学习重点笔记，学习路线依据 [这个回答]（https://www.zhihu.com/question/32314049/answer/100898227）
+# Front end web development
+前端学习重点笔记，学习路线依据[Web前端怎样入门](http://github.com)和[从零开始学前端](https://github.com/qianguyihao/Web)。
 
 ### 参考资料
 #### 实践
