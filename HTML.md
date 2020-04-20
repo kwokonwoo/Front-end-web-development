@@ -21,3 +21,14 @@ HTML作为一种标记语言与编程语言的不同之处在于标记语言没�
 The name of an element inside a tag is case insensitive. For example, the `<title>` tag can be written as `<Title>`, `<TITLE>`, or in any other way.
 
 ![Anatomy of an HTML element](https://github.com/kwokonwoo/Front-end-web-development/blob/master/images/grumpy-cat-small.png)
+
+**Nesting elements**`: <p>My cat is <strong>very</strong> grumpy. </p>`
+
+一些缩写的含义：
+- **src** = **s**ou**rc**e
+- **alt** = **alt**ernative
+- **a** = **a**nchor
+- **href** = **h**ypertext **ref**erence
+- **ul** = **u**nodered **l**ists
+- **ol** = **o**dered **l**ists
+
