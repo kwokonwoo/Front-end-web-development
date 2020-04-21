@@ -11,13 +11,15 @@ The CSS Universal Selector (*) selects all HTML elements on the page.
 The CSS Grouping Selector就是选择具有相同style definitions的HTML元素，如选择具有相同定义的h1，h2，p CSS codes可以写成`h1, h2, p {}`.
 
 在有多重样式表（Style Sheet）定义下，最后被读取的值将会被使用，即哪个在后面哪个将被读取。例：
-`<head>
+```
+<head>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 <style>
 h1 {
   color: orange;
   }
 </style>
-</head>`
+</head>
+```
 
 上例中`<h1>`elements将是"orange".
