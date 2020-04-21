@@ -10,6 +10,12 @@ HTML作为一种标记语言与编程语言的不同之处在于标记语言没�
 - True: 给文本增加主标题的语义。
 - False: ~~给文字加粗、加黑、变大~~。
 
+HTML was created to **describe the content** of a web page, like:
+
+`<h1>This is a heading</h1>`
+
+`<p>This is a paragraph.</p>`
+
 **元素**：e.g., `<p>body</p>`称为元素。
 
 **HTTP**：超文本传输协议。SMTP：邮件传输协议；FTP：文件传输协议。
@@ -32,3 +38,12 @@ The name of an element inside a tag is case insensitive. For example, the `<titl
 - **ul** = **u**nodered **l**ists
 - **ol** = **o**dered **l**ists
 
+`<a>`中可以添加attribute `target="_blank"`使得链接在新的标签页打开。
+
+![Anatomy of a CSS ruleset](https://github.com/kwokonwoo/Front-end-web-development/blob/master/images/css-declaration-small.png)
+
+`<video>`中可以添加的attribute有`loop`(播完循环播放),`controls`(显示控件）,`poster=""`（添加封面）等，YouTube分享中自带embed可以直接复制视频到网页，如：
+
+  `<iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+
+Browsers will apply some **default styling** to the `<h1>` element(among others), that's because we want even an unstyle webpage to have basic readability. To get rid of the gap because of the default styling, we overrode the default styling by setting `margin: 0`.
