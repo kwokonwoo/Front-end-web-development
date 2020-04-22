@@ -32,3 +32,5 @@ All the styles in a page will "cascade" into a new "**virtual**" style sheet by 
 
 [Opacity / Transparency](https://www.w3schools.com/code/tryit.asp?filename=GE3CC81ZCQ6I)
 
+即便`link`tag中链接到CSS声明中包含了`type="text/css"`，还是需要在样式表加上后缀`.css`，这是因为一些老的浏览器无法识别后缀不为.css的样式表文件。
+
