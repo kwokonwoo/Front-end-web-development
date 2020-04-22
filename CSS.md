@@ -1,6 +1,6 @@
 ![A CSS rule-set](https://github.com/kwokonwoo/Front-end-web-development/blob/master/images/selector.gif)
 
-The CSS element Selector based on the element name. 如`p {}`选中页面所有的<p>元素。
+The CSS element Selector based on the element name. 
 
 The CSS id Selector is used to select one unique element.(Note: An id name cannot start with a number!)
 
@@ -23,3 +23,9 @@ h1 {
 ```
 
 上例中`<h1>`elements将是"orange".
+
+**What style will be used when there is more than one style specofied for an HtMl element?**
+All the styles in a page will "cascade" into a new "**virtual**" style sheet by the following rules, where number one has the hightest priority:
+- Inline style(inside an HTML element)
+- External and internal style sheets(in the head section: 取决于哪个在后面)
+- Browser default
