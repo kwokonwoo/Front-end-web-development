@@ -29,3 +29,6 @@ All the styles in a page will "cascade" into a new "**virtual**" style sheet by 
 - Inline style(inside an HTML element)
 - External and internal style sheets(in the head section: 取决于哪个在后面)
 - Browser default
+
+[Opacity / Transparency](https://www.w3schools.com/code/tryit.asp?filename=GE3CC81ZCQ6I)
+
