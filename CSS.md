@@ -6,6 +6,8 @@ The CSS id Selector is used to select one unique element.(Note: An id name canno
 
 The CSS class Selector: `.center{}`、`p.center{}`, HTML elements can also refer to more than one class: `<p class="center large">paragraph</p>`. In the example the `<p>` element will be styled according to `class="enter"` and to `class="large"`. (Note: A class name cannot start with a number!)
 
+The CSS id Selector and the Class Selector 不同之一在于一个HTML元素只能有一个CSS id却可以有多个Class. 
+
 The CSS Universal Selector (*) selects all HTML elements on the page.
 
 The CSS Grouping Selector就是选择具有相同style definitions的HTML元素，如选择具有相同定义的h1，h2，p CSS codes可以写成`h1, h2, p {}`.
