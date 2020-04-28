@@ -59,3 +59,6 @@ h1 > strong{
   color: red;
 }
 ```
+
+Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.(This does not happen on left and right margins.)
+
