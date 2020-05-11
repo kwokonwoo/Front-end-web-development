@@ -63,3 +63,5 @@ h1 > strong{
 Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.(This does not happen on left and right margins.)
 
 如果多于一个规则指定了相同的属性值都应用到一个元素上，CSS规定拥有更高确定度的选择器优先级更高。ID选择器比类选择器更具确定度, 而类选择器比标签选择器（tag selector）更具确定度。如果样式中包含冲突的规则，且它们具有相同的确定度。那么，后出现的规则优先级高。
+
+`inline-block`的元素（如`input`、`img`）既具有`block`元素可以**设置宽高的特性**，同时又具有`inline`元素默认不换行的特性。
