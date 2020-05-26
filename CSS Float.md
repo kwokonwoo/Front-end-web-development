@@ -43,3 +43,5 @@
 ```
 效果如图：
 ![Navigation Menu](https://github.com/kwokonwoo/Front-end-web-development/tree/master/images/Navigation Menu.png)
+
+The `box-sizing` property allows us to include the padding and border in the box's **total width** (and height).
