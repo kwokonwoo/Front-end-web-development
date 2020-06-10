@@ -75,4 +75,41 @@ getAge.apply(xiaoming, []); // 25, this指向xiaoming，参数为空
 Math.max.apply(null, [3, 5, 4]); // 5
 Math.max.call(null, 3, 5, 4); // 5
 ```
+举一个例子：
+```javascript
+var person1 = {
+  fullName: function(){
+    return this.firstName + " " + this.lastName; 
+  }
+}
+var person2 = {
+  firstName: "John",
+  lastName: "Doe",
+}
+person1.fullName.call(person2); // Will return "John Doe"
+```
 对普通函数调用，我们通常把```this```绑定为```null```。
+
+https://www.w3schools.com/js/js_this.asp
+
+The JavaScript ```this``` keyword refers to **the object it belongs to**.
+### this is a Method
+```javascript
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function(){
+    return this.firstName + " " + this.lastName;
+  }
+};
+```
+In an object method, ```this``` refers to the "owner" of the method. In the above example, ```this``` refers to the **person** object because the **person** object is the **owner** of the **fullName** method.
+
+### this Alone
+When used alone, the **owner** is the Global object, so ```this``` refers to the Global object.
+
+In a browser window the Global object is [object Window](also in strict mode).
+### this in a Function (Default)
+In a JavaScript function, the owner of the function is the **default** binding for ```this```.
+So, in a function, ```this``` refers to the Global object [object Window]. However, JavaScript **strict mode** does not allow default binding. So, ```this``` is ```undefined``` when used in a function in strict mode.
